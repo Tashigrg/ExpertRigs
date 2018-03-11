@@ -17,7 +17,7 @@ public class Game_1000 extends AppCompatActivity implements View.OnClickListener
 
     TextView cpu, mobo, gpu, ram, ssd, hdd, psu;
 
-    final int PROCESSOR_SELECTION_CODE = 0;
+//     final int PROCESSOR_SELECTION_CODE = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,21 +69,21 @@ public class Game_1000 extends AppCompatActivity implements View.OnClickListener
 
     }
 
-//    @Override
-//    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//
-//        switch(requestCode) {
-//            case (PROCESSOR_SELECTION_CODE) : {
-//                if (resultCode == Activity.RESULT_OK) {
-//                    // TODO Extract the data returned from the child Activity.
-//                    String radioValue = data.getStringExtra("ProcessorSelection");
-//                    // save the result value and update UI
-//                }
-//                break;
-//            }
-//        }
-//    }
+//     @Override
+//     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+//         super.onActivityResult(requestCode, resultCode, data);
+
+//         switch(requestCode) {
+//             case (PROCESSOR_SELECTION_CODE) : {
+//                 if (resultCode == Activity.RESULT_OK) {
+//                     // TODO Extract the data returned from the child Activity.
+//                     String radioValue = data.getStringExtra("ProcessorSelection");
+//                     // save the result value and update UI
+//                 }
+//                 break;
+//             }
+//         }
+//     }
 
     @Override
     public void onClick(View v) {
@@ -113,9 +113,8 @@ public class Game_1000 extends AppCompatActivity implements View.OnClickListener
 
     public void opencpu_g1000() {
         Intent intent = new Intent(this, cpu_g1000.class);
-//        startActivityForResult(intent, PROCESSOR_SELECTION_CODE);
+//         startActivityForResult(intent, PROCESSOR_SELECTION_CODE);
         startActivity(intent);
-
     }
 
     public void openmobo_g1000() {

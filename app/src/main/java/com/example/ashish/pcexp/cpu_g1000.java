@@ -33,7 +33,7 @@ public class cpu_g1000 extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-
+                
                 int selected_cpu = rG.getCheckedRadioButtonId();
                 RadioButton selectedRadioButton = (RadioButton) findViewById(selected_cpu);
 
