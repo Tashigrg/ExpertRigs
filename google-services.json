@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "386752842945",
+    "firebase_url": "https://pcexp-7793d.firebaseio.com",
+    "project_id": "pcexp-7793d",
+    "storage_bucket": "pcexp-7793d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386752842945:android:db86935b771a192d",
+        "android_client_info": {
+          "package_name": "com.example.ashish.pcexp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386752842945-rgq1c9ba150clp4bh0ovtv8n6o4qoqto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjgf4_e22VM0XfeoV71DeV3xhBcJvvbFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Expert Rigs</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="success_rig_select">Custom Rig Selected</string>
+    <string name="error_selection_msg">Please fill any empty fields</string>
+
+    <array name="custom_build_types">
+        <item>Select type of build</item>
+        <item>Gaming</item>
+        <item>Rendering</item>
+    </array>
+
+    <array name="custom_build_price">
+        <item>Select your budget</item>
+        <item>Under 500</item>
+        <item>Under 1000</item>
+        <item>Over 1000</item>
+    </array>
+
+    <!--<array name="cpu_brand">-->
+    <!--<item>Select the CPU brand</item>-->
+    <!--<item>Intel</item>-->
+    <!--<item>AMD</item>-->
+    <!--</array>-->
+
+    <string name="title_activity_gpu_g500">gpu_g500</string>
+    <string name="enter_rig_name">Enter Rig Name</string>
+    <string name="build">Build</string>
+
+</resources>

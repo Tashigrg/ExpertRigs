@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ashish.pcexp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Game_500" />
+        <activity android:name=".Game_1000" />
+        <activity android:name=".cpu_g500" />
+        <activity android:name=".mobo_g500" />
+        <activity android:name=".gpu_g500" />
+        <activity android:name=".cpu_g1000" />
+        <activity android:name=".mobo_g1000" />
+        <activity android:name=".gpu_g1000" />
+        <activity android:name=".ram_g1000" />
+        <activity android:name=".ssd_g1000" />
+        <activity android:name=".hdd_g1000" />
+        <activity android:name=".psu_g1000" />
+        <activity android:name=".ram_g500" />
+        <activity android:name=".ssd_g500" />
+        <activity android:name=".hdd_g500" />
+        <activity android:name=".psu_g500" />
+        <activity android:name=".Rend_1000" />
+        <activity android:name=".cpu_r1000" />
+        <activity android:name=".mobo_r1000" />
+        <activity android:name=".gpu_r1000" />
+        <activity android:name=".ram_r1000" />
+        <activity android:name=".ssd_r1000" />
+        <activity android:name=".hdd_r1000" />
+        <activity android:name=".psu_r1000"></activity>
+    </application>
+
+</manifest>
