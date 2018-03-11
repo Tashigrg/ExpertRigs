@@ -33,18 +33,15 @@ public class cpu_g1000 extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-
+                
                 int selected_cpu = rG.getCheckedRadioButtonId();
                 RadioButton selectedRadioButton = (RadioButton) findViewById(selected_cpu);
 
                 String radioValue = selectedRadioButton.getText().toString();
+                Intent intent = new Intent(cpu_g1000.this, Game_1000.class);
+                intent.putExtra("Processor", radioValue);
 
-                Intent resultIntent = new Intent();
-                // TODO Add data to send back
-                resultIntent.putExtra("ProcessorSelection", radioValue);
-                setResult(Activity.RESULT_OK, resultIntent);
-                // finishing this activity
-                finish();
+                startActivity(intent);
 
             }
 
