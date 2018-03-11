@@ -23,7 +23,7 @@
             android:layout_marginRight="6dp"
             android:background="@drawable/rounded_long_button"
             android:paddingLeft="10dp"
-            android:text="Hard Disk Drive 1000"
+            android:text="Press this button for detail"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="15sp" />

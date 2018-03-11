@@ -1,6 +1,7 @@
 package com.example.ashish.pcexp;
 
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,8 +9,6 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-
-import java.lang.reflect.Type;
 
 public class mobo_g1000 extends AppCompatActivity {
 
@@ -43,6 +42,19 @@ public class mobo_g1000 extends AppCompatActivity {
 
             }
 
+        });
+
+        Button mShowDialog = (Button) findViewById(R.id.imobo_1000g);
+        mShowDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder mBuilder = new AlertDialog.Builder(mobo_g1000.this);
+                View mView = getLayoutInflater().inflate(R.layout.mobog1dialog, null);
+
+                mBuilder.setView(mView);
+                AlertDialog dialog = mBuilder.create();
+                dialog.show();
+            }
         });
     }
 }

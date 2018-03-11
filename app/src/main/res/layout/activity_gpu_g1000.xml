@@ -23,7 +23,7 @@
             android:layout_marginRight="6dp"
             android:background="@drawable/rounded_long_button"
             android:paddingLeft="10dp"
-            android:text="Graphic Processing Unit 1000"
+            android:text="Press this button for detail"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="15sp" />
@@ -45,12 +45,12 @@
                 android:text="Expert's choice" />
 
             <RadioButton
-                android:id="@+id/rBtn_G1_gpu1"
+                android:id="@+id/rBtn_G1_gpu4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="GTX 970" />
+                android:text="GTX 1060" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -58,14 +58,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Other Suggestions" />
-
-            <RadioButton
-                android:id="@+id/rBtn_G1_gpu2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_weight="1"
-                android:text="GTX 1050TI" />
 
             <RadioButton
                 android:id="@+id/rBtn_G1_gpu3"
@@ -76,12 +68,20 @@
                 android:text="R9 390" />
 
             <RadioButton
-                android:id="@+id/rBtn_G1_gpu4"
+                android:id="@+id/rBtn_G1_gpu1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="GTX 1060" />
+                android:text="GTX 970" />
+
+            <RadioButton
+                android:id="@+id/rBtn_G1_gpu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="GTX 1050TI" />
 
 
         </RadioGroup>

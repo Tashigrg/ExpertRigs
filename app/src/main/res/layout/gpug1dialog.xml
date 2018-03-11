@@ -9,7 +9,7 @@
         android:id="@+id/textView0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Processor is the brain of a computer. The speed of the processor is measured in GHz so higher the GHz, faster the speed it processes data. Unlocked processors means users will be able to bump up the speed of the processor to higher than what was advertised. Cores of a processor is also important but for gaming, 4 cores are ideal at the moment since they are the most affordable and their performance."
+        android:text="GPU is a very important component for gamers as specialises in rendering graphics. One of the main aspect a good GPU will have is their bandwidth E.g - GDDR5. 1GB of GDDR5 is infinitely preferable to 4 GB of DDR3. If you wish to game over 1920x1080 or use multiple screens then you will also need to look at the RAM as higher the RAM better it multitasking ability"
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
@@ -24,7 +24,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="- I7-7700k"
+        android:text="- GTX 1060"
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
@@ -33,7 +33,7 @@
         android:id="@+id/textView1.1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="*4.2GHz, 4 cores, Unlocked, £250"
+        android:text="*GDDR5, 3GB memory, Dual fans, £250"
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
@@ -42,7 +42,7 @@
         android:id="@+id/textView1.1.1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="*Suggested by expert as it has the best price for performance rating compared to most processor that are out currently.  Can be overclocked to reach 5.1GHz."
+        android:text="*Suggested by expert as it has the best price compared to others and the features it provides. From looking at hundreds of benchmark this card out performs similar price range cards or borderlines the performance of high end expensive cards."
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
@@ -54,19 +54,19 @@
         android:src="@drawable/black_line" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="- I5-8400"
+        android:text="- MSI R9 390"
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="*3.0GHz, 6 cores, not unlocked, £150 "
+        android:text="*GDDR5, 8GB memory, Dual fans, £220"
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
@@ -78,19 +78,19 @@
         android:src="@drawable/black_line" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="- I5-7600k"
+        android:text="- GTX 970"
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="*3.8GHz, 4 cores, Unlocked, £180"
+        android:text="*GDDR5, 4GB memory, Dual fans, £220 "
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
@@ -105,7 +105,7 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="- I5-6600k"
+        android:text="- GTX 1050TI"
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
@@ -114,7 +114,7 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="*3.9GHz, 4 cores, Unlocked, £199"
+        android:text="*GDDR5, 4GB memory, Dual fans, £180"
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />

@@ -24,7 +24,7 @@
             android:layout_marginRight="6dp"
             android:background="@drawable/rounded_long_button"
             android:paddingLeft="10dp"
-            android:text="Intel MotherBoard"
+            android:text="Press this buttons for detail"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="15sp" />

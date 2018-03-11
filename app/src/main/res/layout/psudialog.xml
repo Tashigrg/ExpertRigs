@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*The PSU supplies electricity throughout the computer. When assembling a new system you will have to know the amount of voltage the entire system needs. Purchasing a PSU with a clearance of over 100 will be ideal as it leaves the extra voltage for the future upgrades.+80 gold represents the efficiency of a power supply."
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- EVGA Supernova 650"
+        android:textColor="#330506"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*+80 Gold, Modular, £90"
+        android:textColor="#330506"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1.1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Suggested by expert as it has the best price compared to others and the features it provides. The total voltage of the system will be under 550 leaving over 100 clearance."
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+
+</LinearLayout>
