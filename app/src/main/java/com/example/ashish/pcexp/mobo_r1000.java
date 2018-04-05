@@ -38,7 +38,9 @@ public class mobo_r1000 extends AppCompatActivity {
                 Intent intent = new Intent(mobo_r1000.this, Rend_1000.class);
                 intent.putExtra("Motherboard", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(2,intent);
+                finish();
 
 
             }

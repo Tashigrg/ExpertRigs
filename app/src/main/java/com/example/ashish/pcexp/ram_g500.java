@@ -36,7 +36,9 @@ public class ram_g500 extends AppCompatActivity {
                 Intent intent = new Intent(ram_g500.this, Game_500.class);
                 intent.putExtra("RAM", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(4,intent);
+                finish();
 
 
             }

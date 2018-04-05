@@ -37,9 +37,9 @@ public class psu_g1000 extends AppCompatActivity {
                 Intent intent = new Intent(psu_g1000.this, Game_1000.class);
                 intent.putExtra("PSU", radioValue);
 
-                startActivity(intent);
-
-
+                //startActivity(intent);
+                setResult(7,intent);
+                finish();
             }
 
         });

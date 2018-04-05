@@ -36,7 +36,9 @@ public class hdd_r1000 extends AppCompatActivity {
                 Intent intent = new Intent(hdd_r1000.this, Rend_1000.class);
                 intent.putExtra("HDD", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(6,intent);
+                finish();
 
 
             }

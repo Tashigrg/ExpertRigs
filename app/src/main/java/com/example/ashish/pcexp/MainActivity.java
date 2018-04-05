@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 if( rigSaves.getRigType().equals("Rendering") && rigSaves.getRigPrice().equals("Over 1000") ){
 
-                    Toast.makeText(getApplicationContext(), "Rendering Under 1000.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Rendering Over 1000.", Toast.LENGTH_SHORT).show();
                 }
 
             }

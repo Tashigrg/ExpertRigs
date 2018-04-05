@@ -13,7 +13,7 @@ public class RigSaves {
 
     }
 
-    public RigSaves(String rigID, String rigName, String rigType, String rigPrice) {
+       public RigSaves(String rigID, String rigName, String rigType, String rigPrice) {
         this.rigID = rigID;
         this.rigName = rigName;
         this.rigType = rigType;

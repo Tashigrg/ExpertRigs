@@ -71,6 +71,15 @@
         android:textColor="#330506"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/textView5i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Best choice if using multiple monitors."
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"

@@ -53,6 +53,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:hint="Choose a Processor"
+            android:textColor="#189f02"
             android:textSize="15sp"
             android:textStyle="bold"/>
 
@@ -84,6 +85,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Choose a Motherboard"
+            android:textColor="#189f02"
             android:paddingLeft="15dp"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -117,6 +119,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:hint="Choose a Processor"
+            android:textColor="#189f02"
             android:textSize="15sp"
             android:textStyle="bold"/>
 
@@ -150,6 +153,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:hint="Choose a RAM"
+            android:textColor="#189f02"
             android:textSize="15sp"
             android:textStyle="bold"/>
 
@@ -182,6 +186,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:hint="Choose a SSD"
+            android:textColor="#189f02"
             android:textSize="15sp"
             android:textStyle="bold"/>
 
@@ -214,6 +219,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:hint="Choose a HDD"
+            android:textColor="#189f02"
             android:textSize="15sp"
             android:textStyle="bold"/>
 
@@ -247,6 +253,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:hint="Choose a PSU"
+            android:textColor="#189f02"
             android:textSize="15sp"
             android:textStyle="bold"/>
 
@@ -270,12 +277,12 @@
 
             <Button
                 android:id="@+id/Save"
-                android:layout_width="140dp"
-                android:layout_height="42dp"
+                android:layout_width="223dp"
+                android:layout_height="44dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:background="@drawable/rounded_long_button"
-                android:text="Save"
+                android:text="Please screenshot your choices"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="15sp"

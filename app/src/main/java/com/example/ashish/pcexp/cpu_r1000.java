@@ -39,23 +39,14 @@ public class cpu_r1000 extends AppCompatActivity {
                 Intent intent = new Intent(cpu_r1000.this, Rend_1000.class);
                 intent.putExtra("Processor", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(1,intent);
+                finish();
 
             }
 
         });
 
-        Button mShowDialog = (Button) findViewById(R.id.icpu_1000r);
-        mShowDialog.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder mBuilder = new AlertDialog.Builder(cpu_r1000.this);
-                View mView = getLayoutInflater().inflate(R.layout.cpudialog, null);
 
-                mBuilder.setView(mView);
-                AlertDialog dialog = mBuilder.create();
-                dialog.show();
-            }
-        });
     }
 }

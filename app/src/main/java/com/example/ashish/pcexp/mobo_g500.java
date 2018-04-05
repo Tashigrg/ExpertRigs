@@ -38,7 +38,10 @@ public class mobo_g500 extends AppCompatActivity {
 
                 intent.putExtra("Motherboard", radioValue1);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(2,intent);
+                finish();
+
 
 //                int selected_cpu = rG.getCheckedRadioButtonId();
 //

@@ -1,6 +1,7 @@
 package com.example.ashish.pcexp;
 
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,11 +39,14 @@ public class cpu_g500 extends AppCompatActivity {
                 Intent intent = new Intent(cpu_g500.this, Game_500.class);
                 intent.putExtra("Processor", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(1,intent);
+                finish();
 
 
             }
 
         });
+
     }
 }

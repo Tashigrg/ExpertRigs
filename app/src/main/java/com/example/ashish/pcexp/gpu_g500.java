@@ -36,7 +36,9 @@ public class gpu_g500 extends AppCompatActivity {
                 Intent intent = new Intent(gpu_g500.this, Game_500.class);
                 intent.putExtra("GPU", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(3,intent);
+                finish();
 
 
             }

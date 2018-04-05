@@ -14,10 +14,12 @@ import android.widget.TextView;
 public class Game_1000 extends AppCompatActivity implements View.OnClickListener{
 
     private TextView cpu1000, mobo1000, gpu1000, ram1000, ssd1000, hdd1000, psu1000;
+    static final int OPENCPU_G1000_RESULT = 1 , OPENMOBO_G1000_RESULT = 2 , OPENGPU_G1000_RESULT = 3 ,
+                    OPENRAM_G1000_RESULT = 4 , OPENSSD_G1000_RESULT = 5 , OPENHDD_G1000_RESULT = 6 ,
+                    OPENPSU_G1000_RESULT = 7;
 
     TextView cpu, mobo, gpu, ram, ssd, hdd, psu;
 
-//     final int PROCESSOR_SELECTION_CODE = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,45 +47,54 @@ public class Game_1000 extends AppCompatActivity implements View.OnClickListener
         psu1000 = (TextView) findViewById(R.id.psuName_G1);
         psu1000.setOnClickListener(this);
 
+        Button mShowDialog = (Button) findViewById(R.id.Save);
+        mShowDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder mBuilder = new AlertDialog.Builder(Game_1000.this);
+                View mView = getLayoutInflater().inflate(R.layout.results_dialog, null);
 
-        cpu = (TextView) findViewById(R.id.proNameG1000);
-        cpu.setText(getIntent().getStringExtra("Processor"));
-
-        mobo = (TextView) findViewById(R.id.moboNameG1000);
-        mobo.setText(getIntent().getStringExtra("Motherboard"));
-
-        gpu = (TextView) findViewById(R.id.gpuNameG1000);
-        gpu.setText(getIntent().getStringExtra("GPU"));
-
-        ram = (TextView) findViewById(R.id.ramNameG1000);
-        ram.setText(getIntent().getStringExtra("RAM"));
-
-        ssd = (TextView) findViewById(R.id.ssdNameG1000);
-        ssd.setText(getIntent().getStringExtra("SSD"));
-
-        hdd = (TextView) findViewById(R.id.hddNameG1000);
-        hdd.setText(getIntent().getStringExtra("HDD"));
-
-        psu = (TextView) findViewById(R.id.psuNameG1000);
-        psu.setText(getIntent().getStringExtra("PSU"));
-
+                mBuilder.setView(mView);
+                AlertDialog dialog = mBuilder.create();
+                dialog.show();
+            }
+        });
     }
 
-//     @Override
-//     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-//         super.onActivityResult(requestCode, resultCode, data);
+     @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        switch(requestCode) {
+            case OPENCPU_G1000_RESULT:
+                cpu = (TextView) findViewById(R.id.proNameG1000);
+                cpu.setText(data.getStringExtra("Processor"));
+                break;
+            case OPENMOBO_G1000_RESULT:
+                mobo = (TextView) findViewById(R.id.moboNameG1000);
+                mobo.setText(data.getStringExtra("Motherboard"));
+                break;
+            case OPENGPU_G1000_RESULT:
+                gpu = (TextView) findViewById(R.id.gpuNameG1000);
+                gpu.setText(data.getStringExtra("GPU"));
+                break;
+            case OPENRAM_G1000_RESULT:
+                ram = (TextView) findViewById(R.id.ramNameG1000);
+                ram.setText(data.getStringExtra("RAM"));
+                break;
+            case OPENSSD_G1000_RESULT:
+                ssd = (TextView) findViewById(R.id.ssdNameG1000);
+                ssd.setText(data.getStringExtra("SSD"));
+                break;
+            case OPENHDD_G1000_RESULT:
+                hdd = (TextView) findViewById(R.id.hddNameG1000);
+                hdd.setText(data.getStringExtra("HDD"));
+                break;
+            case OPENPSU_G1000_RESULT:
+                psu = (TextView) findViewById(R.id.psuNameG1000);
+                psu.setText(data.getStringExtra("PSU"));
+                break;
 
-//         switch(requestCode) {
-//             case (PROCESSOR_SELECTION_CODE) : {
-//                 if (resultCode == Activity.RESULT_OK) {
-//                     // TODO Extract the data returned from the child Activity.
-//                     String radioValue = data.getStringExtra("ProcessorSelection");
-//                     // save the result value and update UI
-//                 }
-//                 break;
-//             }
-//         }
-//     }
+        }
+    }
 
     @Override
     public void onClick(View v) {
@@ -113,38 +124,37 @@ public class Game_1000 extends AppCompatActivity implements View.OnClickListener
 
     public void opencpu_g1000() {
         Intent intent = new Intent(this, cpu_g1000.class);
-//         startActivityForResult(intent, PROCESSOR_SELECTION_CODE);
-        startActivity(intent);
+         startActivityForResult(intent, OPENCPU_G1000_RESULT);
     }
 
     public void openmobo_g1000() {
         Intent intent = new Intent(this, mobo_g1000.class);
-        startActivity(intent);
+        startActivityForResult(intent, OPENMOBO_G1000_RESULT);
     }
 
     public void opengpu_g1000() {
         Intent intent = new Intent(this, gpu_g1000.class);
-        startActivity(intent);
+        startActivityForResult(intent, OPENGPU_G1000_RESULT);
     }
 
     public void openram_g1000() {
         Intent intent = new Intent(this, ram_g1000.class);
-        startActivity(intent);
+        startActivityForResult(intent, OPENRAM_G1000_RESULT);
     }
 
     public void openssd_g1000() {
         Intent intent = new Intent(this, ssd_g1000.class);
-        startActivity(intent);
+        startActivityForResult(intent, OPENSSD_G1000_RESULT);
     }
 
     public void openhdd_g1000() {
         Intent intent = new Intent(this, hdd_g1000.class);
-        startActivity(intent);
+        startActivityForResult(intent, OPENHDD_G1000_RESULT);
     }
 
     public void openpsu_g1000() {
         Intent intent = new Intent(this, psu_g1000.class);
-        startActivity(intent);
+        startActivityForResult(intent, OPENPSU_G1000_RESULT);
     }
 
 }

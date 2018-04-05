@@ -36,7 +36,9 @@ public class psu_r1000 extends AppCompatActivity {
                 Intent intent = new Intent(psu_r1000.this, Rend_1000.class);
                 intent.putExtra("PSU", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(7,intent);
+                finish();
 
 
             }

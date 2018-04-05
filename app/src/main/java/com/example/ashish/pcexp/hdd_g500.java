@@ -36,7 +36,9 @@ public class hdd_g500 extends AppCompatActivity {
                 Intent intent = new Intent(hdd_g500.this, Game_500.class);
                 intent.putExtra("HDD", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(6,intent);
+                finish();
 
 
             }

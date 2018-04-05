@@ -36,7 +36,9 @@ public class gpu_r1000 extends AppCompatActivity {
                 Intent intent = new Intent(gpu_r1000.this, Rend_1000.class);
                 intent.putExtra("GPU", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(3,intent);
+                finish();
 
 
             }

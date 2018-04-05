@@ -42,13 +42,46 @@
         android:id="@+id/textView1.1.1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="*Suggested by expert as it has the best price for performance rating compared to most processor that are out currently.  Can be overclocked to reach 5.1GHz."
+        android:text="*Suggested by expert as it has the best performance rating compared to most processor that are out currently but just a little bit costly.  Can be overclocked to reach 5.1GHz."
         android:textAlignment="center"
         android:textColor="#330506"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- I5-7600k"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*3.8GHz, 4 cores, Unlocked, £180"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview3i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Best budget choice"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="8dp"
         android:src="@drawable/black_line" />
@@ -73,30 +106,6 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="8dp"
-        android:src="@drawable/black_line" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="- I5-7600k"
-        android:textAlignment="center"
-        android:textColor="#330506"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="*3.8GHz, 4 cores, Unlocked, £180"
-        android:textAlignment="center"
-        android:textColor="#330506"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="8dp"
         android:src="@drawable/black_line" />

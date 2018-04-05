@@ -41,8 +41,9 @@ public class cpu_g1000 extends AppCompatActivity {
                 Intent intent = new Intent(cpu_g1000.this, Game_1000.class);
                 intent.putExtra("Processor", radioValue);
 
-                startActivity(intent);
-
+                //startActivity(intent);
+                setResult(1,intent);
+                finish();
             }
 
         });

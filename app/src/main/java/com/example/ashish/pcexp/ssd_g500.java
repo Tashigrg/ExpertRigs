@@ -36,7 +36,9 @@ public class ssd_g500 extends AppCompatActivity {
                 Intent intent = new Intent(ssd_g500.this, Game_500.class);
                 intent.putExtra("SSD", radioValue);
 
-                startActivity(intent);
+//                startActivity(intent);
+                setResult(5,intent);
+                finish();
 
 
             }

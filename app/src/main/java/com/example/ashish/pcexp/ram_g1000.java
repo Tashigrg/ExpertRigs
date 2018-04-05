@@ -37,7 +37,9 @@ public class ram_g1000 extends AppCompatActivity {
                 Intent intent = new Intent(ram_g1000.this, Game_1000.class);
                 intent.putExtra("RAM", radioValue);
 
-                startActivity(intent);
+                //startActivity(intent);
+                setResult(4,intent);
+                finish();
 
 
             }
