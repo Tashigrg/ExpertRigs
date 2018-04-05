@@ -59,12 +59,12 @@
                 android:text="Other Suggestions" />
 
             <RadioButton
-                android:id="@+id/rBtn_int2_R1"
+                android:id="@+id/rBtn_int4_R1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="I7-7700K" />
+                android:text="I5 8400" />
 
             <RadioButton
                 android:id="@+id/rBtn_int3_R1"
@@ -75,66 +75,20 @@
                 android:text="I7-7800X" />
 
             <RadioButton
-                android:id="@+id/rBtn_int4_R1"
+                android:id="@+id/rBtn_int2_R1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="I5 8400" />
+                android:text="I7-7700K" />
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="4dp" />
 
-            <Button
-                android:id="@+id/acpu_1000g"
-                android:layout_width="match_parent"
-                android:layout_height="42dp"
-                android:layout_marginLeft="6dp"
-                android:layout_marginRight="6dp"
-                android:background="@drawable/rounded_long_button"
-                android:paddingLeft="10dp"
-                android:text="AMD Rendering 1000"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="15sp" />
-
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="4dp" />
-
-
-            <RadioButton
-                android:id="@+id/rBtn_amd1_G1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_weight="1"
-                android:text="CPU Five 1000" />
-
-            <RadioButton
-                android:id="@+id/rBtn_amd2_G1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_weight="1"
-                android:text="CPU Six 1000" />
-
-            <RadioButton
-                android:id="@+id/rBtn_amd3_G5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_weight="1"
-                android:text="CPU Seven 1000" />
-
-            <RadioButton
-                android:id="@+id/rBtn_amd4_G1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_weight="1"
-                android:text="CPU Eight 1000" />
 
 
         </RadioGroup>

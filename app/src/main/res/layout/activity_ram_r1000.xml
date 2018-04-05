@@ -45,12 +45,12 @@
                 android:text="Expert choice" />
 
             <RadioButton
-                android:id="@+id/rBtn_R1_ram1"
+                android:id="@+id/rBtn_R1_ram2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Team group dark pro 2x4" />
+                android:text="Corsair vengeance LPX 2x8 " />
 
             <TextView
                 android:id="@+id/textView18"
@@ -60,12 +60,12 @@
                 android:text="Other Suggestions" />
 
             <RadioButton
-                android:id="@+id/rBtn_R1_ram2"
+                android:id="@+id/rBtn_R1_ram1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Corsair vengeance LPX 2x4 " />
+                android:text="Team group dark pro 2x8" />
 
             <RadioButton
                 android:id="@+id/rBtn_G1_ram3"
@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="G.skill rip jaws V 2x4" />
+                android:text="G.skill rip jaws V 2x8" />
 
             <RadioButton
                 android:id="@+id/rBtn_R1_ram4"
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="HyperX fury 2x4" />
+                android:text="HyperX fury 2x8" />
 
 
         </RadioGroup>

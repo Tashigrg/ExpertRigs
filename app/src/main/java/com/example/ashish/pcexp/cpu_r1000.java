@@ -10,8 +10,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import java.lang.reflect.Type;
-
 public class cpu_r1000 extends AppCompatActivity {
 
     Button button_save;
@@ -45,6 +43,19 @@ public class cpu_r1000 extends AppCompatActivity {
 
             }
 
+        });
+
+        Button mShowDialog = (Button) findViewById(R.id.icpu_1000r);
+        mShowDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder mBuilder = new AlertDialog.Builder(cpu_r1000.this);
+                View mView = getLayoutInflater().inflate(R.layout.cpudialogrend, null);
+
+                mBuilder.setView(mView);
+                AlertDialog dialog = mBuilder.create();
+                dialog.show();
+            }
         });
 
 

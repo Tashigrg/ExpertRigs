@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motherboard is one of the most important part of a computer as without it a computer would not run. In order to future proof your PC you must choose the right features on a motherboard such as the ability to overclock a CPU. How much RAM it can take is very important for rendering rigs  and if the the motherboard supports the chipset of your CPU."
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Asus Prime Z270-A"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*ATX, LGA1151, 64GB ram, £140"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1.1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Suggested by expert as it has the best price compared to others and the features it provides. Supports CPU overclocking and 3866MHz RAM speed ."
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Asus Prime Z370-A"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*ATX, High overclock potential, 64GB ram, £150"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Asus Maximus VIII Hero"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*ATX, LGA1151, 64GB ram, £130 "
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- MSI H270"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*ATX, Overclock not supported, 64GB ram, £110"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+
+</LinearLayout>

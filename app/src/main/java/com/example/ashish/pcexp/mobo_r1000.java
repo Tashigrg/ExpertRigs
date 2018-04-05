@@ -1,6 +1,7 @@
 package com.example.ashish.pcexp;
 
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -45,6 +46,19 @@ public class mobo_r1000 extends AppCompatActivity {
 
             }
 
+        });
+
+        Button mShowDialog = (Button) findViewById(R.id.imobo_1000r);
+        mShowDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder mBuilder = new AlertDialog.Builder(mobo_r1000.this);
+                View mView = getLayoutInflater().inflate(R.layout.mobor1dialog, null);
+
+                mBuilder.setView(mView);
+                AlertDialog dialog = mBuilder.create();
+                dialog.show();
+            }
         });
     }
 }

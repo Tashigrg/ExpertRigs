@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPU is a not as important component for rendering but still needed. One of the main aspect a good GPU will have is their bandwidth E.g - GDDR5. 1GB of GDDR5 is infinitely preferable to 4 GB of DDR3. If you wish to render in 3D or use multiple screens then you will also need to look at the GPU RAM as higher the RAM better it multitasking ability"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- GTX 1050TI"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*GDDR5, 4GB memory, Dual fans, £180"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1.1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Suggested by expert as it has the best price compared to others and the features it provides. From looking at hundreds of benchmark this card out performs similar price range cards or borderlines the performance of high end expensive cards."
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Asus Rog Striz Rx 560"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*GDDR5, 4GB memory, Dual fans, £180"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Next best choice but benchmarks show it is slightly inferior to 1050TI for the same price."
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Zotac GTX 1050mini"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*GDDR5, 2GB memory, single fans, £145 "
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+
+
+
+</LinearLayout>

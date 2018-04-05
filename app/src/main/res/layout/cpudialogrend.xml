@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Processor is the brain of a computer. The speed of the processor is measured in GHz so higher the GHz, faster the speed it processes data. Unlocked processors means users will be able to bump up the speed of the processor to higher than what was advertised. Cores of a processor and threading is important but for rendering, higher core count and threading usually performs better."
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- I7-8700K"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*4.6GHz, 6 Cores, 12 Threading, £300"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1.1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Suggested by expert as it has the be tst performance rating compared to most processor that are out currently but just a little bit costly."
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- I5-8400"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*3.0GHz, 6 cores, 6 Threading, £150 "
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview3i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Best budget choice"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- I7-7800X"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*3.5GHz, 6 cores, 12 Threading, £280"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- I7-7700K"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*4.2GHz, 4 cores, Unlocked, £250"
+        android:textAlignment="center"
+        android:textColor="#330506"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:src="@drawable/black_line" />
+
+
+</LinearLayout>

@@ -1,6 +1,7 @@
 package com.example.ashish.pcexp;
 
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -43,6 +44,19 @@ public class gpu_r1000 extends AppCompatActivity {
 
             }
 
+        });
+
+        Button mShowDialog = (Button) findViewById(R.id.gpu_1000r);
+        mShowDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder mBuilder = new AlertDialog.Builder(gpu_r1000.this);
+                View mView = getLayoutInflater().inflate(R.layout.gpur1dialog, null);
+
+                mBuilder.setView(mView);
+                AlertDialog dialog = mBuilder.create();
+                dialog.show();
+            }
         });
     }
 }
